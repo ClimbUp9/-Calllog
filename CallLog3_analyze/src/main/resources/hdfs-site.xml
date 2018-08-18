@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+
+<configuration>
+	<property>
+		<name>dfs.replication</name>
+		<value>3</value>
+	</property>
+	<property>
+		<name>dfs.namenode.secondary.http-address</name> 
+		<value>node122:50090</value>
+	</property>
+	<!--
+	<property>
+		<name>dfs.hosts</name>
+		<value>/opt/module/hadoop-2.7.2/etc/hadoop/dfs.hosts</value>
+	</property>
+	<property>
+		<name>dfs.hosts.exclude</name>
+		<value>/opt/module/hadoop-2.7.2/etc/hadoop/dfs.hosts.exclude</value>
+	</property>
+	-->
+</configuration>
